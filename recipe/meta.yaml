@@ -1,5 +1,5 @@
 {% set name = "fleur" %}
-{% set version = "6.2" %}
+{% set version = "7.2" %}
 {% set version_long = "MaX-R" + version %}
 
 package:
@@ -11,7 +11,7 @@ source:
   sha256: 7c7943b22043b991ed8c379662cbe8295e4679013fbd70a1ff36db8984595d4a
 
 build:
-  number: 6
+  number: 0
   skip: true  # [win]
 
 requirements:

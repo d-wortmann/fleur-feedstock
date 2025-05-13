@@ -13,7 +13,7 @@ else
 fi
 
 
-./configure.sh
+./configure.sh -c auto  
 
 cd build; make -j${CPU_COUNT}
 
